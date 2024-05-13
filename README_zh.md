@@ -36,7 +36,7 @@
 1、文件->首选项，得到如下界面
 
 2、在附加开发板管理器网址输入如下网址：
->  http://39.108.252.158:8089/nulllab/package_nulllab_boards_index_zh.json
+>  http://39.96.172.95:18080/nulllab/package_nulllab_boards_index_zh.json
 
 如果上面的网站打不开可以试下另外一个
 > https://cdn.jsdelivr.net/gh/nulllaborg/arduino_nulllab/package_nulllab_boards_index_zh.json
@@ -47,7 +47,7 @@
 搜索nulllab,选择最新版本安装（如果搜索不到，请安装arduino IDE1.8.15以上）
 
 ### 方法二、手动安装
-1、[**直接点击下载最新LGT Arduino IDE软件支持包**](http://39.108.252.158:8089/nulllab/nulllab_arduino-1.0.9.zip)
+1、[**直接点击下载最新LGT Arduino IDE软件支持包**](http://39.96.172.95:18080/nulllab/nulllab_arduino-1.0.9.zip)
 
 2、将下载后的文件解压将里面的文件拷贝到(IDE安装目录)**arduino-ide\hardware\arduino_nulllab-master\avr\\**下，如果没有该目录文件，请先创建对应名字的文件夹，最后要
 这个目录下要看到 **boards.txt**和**platform.txt**等这些文件，就代表软件包安装正确。
